@@ -1,0 +1,19 @@
+
+[
+   {
+      "name": "om-shiva-0",
+      "plan_name": "small",
+      "last_action": "CREATE",
+      "last_action_state": "succeeded",
+      "last_action_description": "Instance provisioning completed",
+      "uuid": "6146d65d-d16c-41c2-8649-cfb961b5135d",
+      "kubernetes_master_ips": [
+         "10.195.35.21"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "doesnotmatter.local",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 3
+      }
+   }
+]
