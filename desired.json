@@ -1,6 +1,6 @@
 [
     {
-        "name": "om-shiva-0",
+        "name": "om-shiva-1",
         "plan_name": "small",
         "parameters": {
             "kubernetes_worker_instances": 3
