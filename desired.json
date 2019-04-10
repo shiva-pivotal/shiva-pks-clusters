@@ -5,5 +5,12 @@
         "parameters": {
             "kubernetes_worker_instances": 3
         }
+    },
+    {
+        "name": "om-shiva-prod-cluster",
+        "plan_name": "medium",
+        "parameters": {
+            "kubernetes_worker_instances": 5
+        }
     }
  ]
