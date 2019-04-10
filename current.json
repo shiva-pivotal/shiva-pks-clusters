@@ -1,0 +1,35 @@
+
+[
+   {
+      "name": "onemagnify-0",
+      "plan_name": "small",
+      "last_action": "CREATE",
+      "last_action_state": "succeeded",
+      "last_action_description": "Instance provisioning completed",
+      "uuid": "4b9d66f8-5138-4a16-9d05-50950da57ab2",
+      "kubernetes_master_ips": [
+         "10.195.35.16"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "onemagnify-0-hostname",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 3
+      }
+   },
+   {
+      "name": "om-ws",
+      "plan_name": "small",
+      "last_action": "CREATE",
+      "last_action_state": "succeeded",
+      "last_action_description": "Instance provisioning completed",
+      "uuid": "c637fe5c-5f8d-4907-8d04-c8d2286b6116",
+      "kubernetes_master_ips": [
+         "10.195.35.11"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "om-ws.pks.haas-202.pez.pivotal.io",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 3
+      }
+   }
+]
